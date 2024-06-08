@@ -14,27 +14,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1{
-    margin-bottom: 3%;
-    padding: 0%;
-}
 
-
-h1 a{
-    
-    font-family: "Playpen Sans", cursive;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    padding-top: 2%;
-    color: white;
-    text-decoration: none;
-}
-
-h1 a:hover{
-    color: white;
-    text-decoration: none;
-}
 
 h2{
     font-style: normal;
@@ -47,50 +27,150 @@ h3{
     color:rgb(63, 31, 31);
 }
 
-
 p{
-    color:rgb(63, 31, 31);
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 1%;
+    padding: 3%;
+}
+
+/*NAV*/
+
+nav{
+    background-color: #459D9D;
+    color: rgb(255, 255, 255);
+}
+
+nav h1{
+
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav{
+    text-align: left;
+    width: 100%;
+}
+
+.navbar-nav a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.navbar-nav a:hover{
+    color: #4f748b;
+    font-weight: 700;
+}
+
+.navbar-toggler{
+    color: rgb(3, 3, 3);
     
+    
+}
+
+.navbar-toggler-icon{
+    background-image: url(./bars-solid.svg);
+}
+
+
+/*Carousel*/
+
+.carousel{
+    margin-top: 0.5%;
+    margin-bottom: 4%;
+}
+
+.carousel img{
+    height: 80vh;
+}
+
+.carousel-inner{
+    height: 70vh;
 }
 
 .nosotros{
-    background-image: url(/images/Condor1-1024x683.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
+    background-color: #346373;
 }
 
-.navbar{
-    background-color: rgb(63, 31, 31);
+.pagina p{
+    color:rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1%; 
+    text-shadow: rgb(15, 11, 11) 1px 2px 1px 1px ;
+    backdrop-filter: blur (10px);
     
 }
 
-.container-fluid{
+
+
+
+
+section h5{
     display: flex;
-    justify-content: center;
-    text-transform:uppercase;
-    padding-top: 7%;
-    margin: 0;
+    justify-content: left;
 }
 
-.carousel{
-    margin-top: 12%;
 
+.distancias{
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-top: 2%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
+   
+/*FOOTER*/
+
+footer{
+    background-color: #459D9D;
+    margin-top: 3%;
+}
+
+footer .informacion{
+    display: flex;
+    justify-content: space-around;
+    text-transform: lowercase;
+    
+}
+
+footer .contacto h2{
+    color: white;
+    font-size: 20px;
+}
+
+footer .informacion a{
+    
+    font-size: 17px;
+    margin-top: 2.2%;
+    padding: 3%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer .informacion a:hover{
+    color: #7FD7B2;
+}
+
+
+
+
+/*MARGEN DE PAGINAS*/
 
 .transportepublico, .gastronomia, .atractivo{
-    margin-top: 15%;
+    margin-top: 5%;
 }
+
 /*CARDS*/
 
 .card{
     margin-bottom: 5vh;
     box-shadow: black 2px 2px 15px ;
-    background-color: rgba(41, 12, 22, 0.747);
+    background-color: #397F8B;
     color: white;
 }
 
@@ -115,21 +195,46 @@ p{
 }
 
 .card-body a:hover{
-    color: rgb(187, 204, 35);
+    color: rgb(81, 42, 104);
+    font-weight: 700;   
+}
+
+.btn-{
+    background-color: #263f3b;
+    
 }
 
 
 @media (min-width: 320px) and (max-width: 575px) {
 
     h1{
-        margin-bottom: 3%;
+        margin-bottom: 25%;
     }
 
+    .navbar-nav{
+        margin-top: 25%;
+    }
+
+
     .card img{
-        width: 94vw;
+        width: 100vw;
         height: 40vh;
     
     }
+
+    .carousel{
+        margin-top: 18%;
+        margin-bottom: 4%;
+    }
+
+    .carousel-inner{
+        height: 30vh;
+    }
+
+    .carousel img{
+        height: 30vh;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
