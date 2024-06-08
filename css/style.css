@@ -221,9 +221,7 @@ footer .informacion a:hover{
         margin-top: 25%;
     }
 
-
-
-    
+    /*carousel*/
 
     .carousel{
         margin-top: 18%;
@@ -243,7 +241,7 @@ footer .informacion a:hover{
     .cardcontain{
         display: flex;
         justify-content: space-around;
-        max-width: 100vw;
+        max-width: 100%;
         }
     
     
@@ -259,7 +257,7 @@ footer .informacion a:hover{
     }
     
     .card img{
-        width: 100vw;
+        width: 100%;
         height: 35vh;
     }
     
