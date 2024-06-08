@@ -1,5 +1,5 @@
 body{
-    background-color:  rgb(252, 247, 247);
+    background-color:  rgb(255, 255, 255);
 
 }
 
@@ -167,16 +167,22 @@ footer .informacion a:hover{
 
 /*CARDS*/
 
+.cardcontain{
+    display: flex;
+    justify-content: space-around;
+}
+
 .card{
     margin-bottom: 5vh;
     box-shadow: black 2px 2px 15px ;
     background-color: #397F8B;
     color: white;
+
 }
 
 .card img{
-    width: 28.5vw;
-    height: 42vh;
+    width: 21vw;
+    height: 35vh;
 }
 
 .card-body p{
@@ -216,11 +222,8 @@ footer .informacion a:hover{
     }
 
 
-    .card img{
-        width: 100vw;
-        height: 40vh;
+
     
-    }
 
     .carousel{
         margin-top: 18%;
@@ -233,6 +236,78 @@ footer .informacion a:hover{
 
     .carousel img{
         height: 30vh;
+    }
+
+    /*cards*/
+
+    .cardcontain{
+        display: flex;
+        justify-content: space-around;
+        max-width: 100vw;
+        }
+    
+    
+    .card{
+        margin-bottom: 5vh;
+        box-shadow: black 2px 2px 15px ;
+        background-color: #397F8B;
+        color: white;
+    }
+
+    .card-body{
+        width: 100%;
+    }
+    
+    .card img{
+        width: 21vw;
+        height: 35vh;
+    }
+    
+    .card-body p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+
+    /*FOOTER*/
+
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: #459D9D;
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    footer .informacion{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-transform: lowercase;
+        
+    }
+
+    footer .contacto h2{
+        color: white;
+        font-size: 20px;
+    }
+
+    footer .informacion a{
+        
+        font-size: 17px;
+        margin-top: 2.2%;
+        padding: 3%;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    footer .informacion a:hover{
+        color: #7FD7B2;
     }
 
 }
