@@ -1,3 +1,4 @@
+
 body{
     background-color:  rgb(255, 255, 255);
 
@@ -97,7 +98,7 @@ nav a{
 }
 
 .nosotros{
-    background-color: #346373;
+    background-color: #5b95a8;
 }
 
 .pagina p{
@@ -105,7 +106,8 @@ nav a{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 1%; 
+    margin: 3%;
+    padding: 3%;
     text-shadow: rgb(15, 11, 11) 1px 2px 1px 1px ;
     backdrop-filter: blur (10px);
     
@@ -115,21 +117,29 @@ nav a{
 
 
 
-section h5{
-    display: flex;
-    justify-content: left;
-}
-
-
 .distancias{
     font-family: "Playpen Sans", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    padding-top: 2%;
+    margin: 3%;
+    padding: 3%;
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
+
+.distancias h6{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.lunfardo{
+    margin: 3%;
+    padding: 3%;
+}
+
+
    
 /*FOOTER*/
 
