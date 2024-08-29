@@ -113,7 +113,11 @@ nav a{
     
 }
 
-
+.interes{
+    background-image: url(../images/montañas-fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 
@@ -122,10 +126,9 @@ nav a{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    margin: 3%;
-    padding: 3%;
     color: rgb(0, 0, 0);
     text-decoration: none;
+    height: 50vh;
 }
 
 .distancias h6{
@@ -133,6 +136,34 @@ nav a{
     justify-content: space-between;
     flex-direction: row;
 }
+
+.distancias .lugares{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+}
+
+.distancias .lugares h6 a{
+    text-decoration: none;
+    color: rgb(114, 114, 182);
+}
+
+
+
+.distancias .lugares img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: rgb(114, 114, 182);
+}
+
+.distancias .lugares h6 a:hover{
+    text-decoration: none;
+    color: rgb(83, 141, 151);
+}
+
 
 .lunfardo{
     margin: 3%;
@@ -283,6 +314,58 @@ footer .informacion a:hover{
         justify-content: center;
         text-align: center;
         color: white;
+    }
+
+    .interes{
+        background-image: url(../images/montañas-fondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+    
+    .distancias{
+        font-family: "Playpen Sans", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        height: 50vh;
+    }
+    
+    .distancias h6{
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+        font-size: 0.1em;
+    }
+    
+    .distancias .lugares{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .distancias .lugares h6 a{
+        text-decoration: none;
+        color: rgb(114, 114, 182);
+    }
+    
+    
+    
+    .distancias .lugares img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border-style: double;
+        border-color: rgb(114, 114, 182);
+    }
+    
+    .distancias .lugares h6 a:hover{
+        text-decoration: none;
+        color: rgb(83, 141, 151);
     }
 
 
